@@ -1,3 +1,5 @@
+import "./Header.module.css";
+
 export default function () {
     return (
         <> 
