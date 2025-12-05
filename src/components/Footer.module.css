@@ -1,0 +1,16 @@
+.footer {
+    background-image: url('../../public/img/footer-bg.jpg');
+    color: white;
+    display: flex;
+}
+
+.footerNav {
+    width: 50%;
+    display: flex;
+}
+
+.footerImg {
+    height: 400px;
+    background: url('public/img/dc-logo-bg.png');
+}
+
