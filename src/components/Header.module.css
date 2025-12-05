@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding-block: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
