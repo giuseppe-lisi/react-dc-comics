@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    display: flex;
+    overflow: hidden;
 }
 
 .footerNav {
@@ -28,18 +28,10 @@
 }
 
 .footerImgDiv {
-    width: fit-content;
     height: 100%;
-    text-align: center;
     margin-left: auto;
 }
 
 .footerImgDiv img {
     transform: scale(1.3);
-}
-
-.postFooter {
-    background-color: rgb(69, 69, 69);
-    height: 100px;
-    width: 100%;
 }
