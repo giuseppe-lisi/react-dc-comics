@@ -3,27 +3,29 @@ import styles from "./Footer.module.css";
 export default function () {
     return (
         <>
-            <footer className={`${styles.footer}`}>
-                <div className="wrapper">
+            <footer className={styles.footer}>
+                <div className={`${styles.flex} wrapper`}>
                     <div className={styles.footerNav}>
                         <div>
-                            <h1>DC COMICS</h1>
-                            <ul>
-                                <li>Characters</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                                <li>TV</li>
-                                <li>Games</li>
-                                <li>Videos</li>
-                                <li>News</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h1>SHOP</h1>
-                            <ul>
-                                <li>Shop DC</li>
-                                <li>Shop DC Collectibles</li>
-                            </ul>
+                            <div>
+                                <h1>DC COMICS</h1>
+                                <ul>
+                                    <li>Characters</li>
+                                    <li>Comics</li>
+                                    <li>Movies</li>
+                                    <li>TV</li>
+                                    <li>Games</li>
+                                    <li>Videos</li>
+                                    <li>News</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1>SHOP</h1>
+                                <ul>
+                                    <li>Shop DC</li>
+                                    <li>Shop DC Collectibles</li>
+                                </ul>
+                            </div>
                         </div>
                         <div>
                             <h1>DC</h1>
@@ -52,11 +54,9 @@ export default function () {
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div className={styles.footerImg}></div>
-                <div className="post-footer">
-                    <button></button>
-                    <div className="socials"></div>
+                    <div className={styles.footerImgDiv}>
+                        <img src="public/img/dc-logo-bg.png" alt="dc logo" />
+                    </div>
                 </div>
             </footer>
         </>
