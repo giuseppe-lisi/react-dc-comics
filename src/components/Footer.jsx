@@ -55,7 +55,7 @@ export default function () {
                         </div>
                     </div>
                     <div className={styles.footerImgDiv}>
-                        <img src="public/img/dc-logo-bg.png" alt="dc logo" />
+                        <img src="/img/dc-logo-bg.png" alt="dc logo" />
                     </div>
                 </div>
             </footer>

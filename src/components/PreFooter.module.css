@@ -1,0 +1,29 @@
+.accent {
+    background-color: #0A7CEC;
+}
+
+.nav {
+    color: white;
+    height: 200px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 80px;
+    height: inherit;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li img {
+    height: 70px;
+}
+
+
