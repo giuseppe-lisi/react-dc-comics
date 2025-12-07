@@ -6,10 +6,10 @@ export default function () {
             <header className="wrapper">
                 <div className={styles.header}>
                     <img src="/img/dc-logo.png" alt="dc logo" />
-                    <nav>
+                    <nav className={styles.nav}>
                         <ul className={styles.ul}>
                             <li>CHARACTERS</li>
-                            <li>COMICS</li>
+                            <li className={styles.selected}>COMICS</li>
                             <li>MOVIES</li>
                             <li>TV</li>
                             <li>GAMES</li>

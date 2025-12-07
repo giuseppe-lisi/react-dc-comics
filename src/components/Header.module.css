@@ -3,11 +3,25 @@
     justify-content: space-between;
     align-items: center;
     color: gray;
-    padding-block: 20px;
+    height: 150px;
+}
+
+.nav {
+    height: 100%;
 }
 
 .ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     gap: 40px;
+    height: 100%;
+}
+
+.selected {
+    color: #0A7CEC;
+    border-bottom: 5px solid #0A7CEC;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
