@@ -1,5 +1,5 @@
 import PreFooter from "./PreFooter";
-import FooterContent from "./Footer";
+import FooterContent from "./FooterLinks";
 import PostFooter from "./PostFooter";
 
 export default function () {
