@@ -1,5 +1,5 @@
 import s from "./modules/Header.module.css";
-import { navLinks } from "../data/navLinks";
+import navLinks from "../data/navLinks";
 
 export default function () {
     return (

@@ -1,5 +1,53 @@
 .main {
-    background-color: black;
-    color: antiquewhite;
-    padding-block: 70px;
+    background-color: #1C1C1C;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    padding-block: 50px;
+    flex-wrap: wrap;
+}
+
+.comicCard {
+    width: 200px;
+}
+
+.comicImgDiv {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.comicImg {
+    width: 100%;
+}
+
+.button {
+    background-color: #0282F9;
+    color: white;
+    padding: 10px 60px;
+    margin-block: 30px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #5da5e9;
+    cursor: pointer;
+}
+
+.currentSeries {
+    background-color: #0282F9;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    top: -20px;
+    left:150px;
 }

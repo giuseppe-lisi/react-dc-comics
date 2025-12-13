@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
     {label: "CHARACTERS", key:1, isActive: false},
     {label: "COMICS", key:2, isActive: true},
     {label: "MOVIES", key:3, isActive: false},
@@ -9,4 +9,6 @@ export const navLinks = [
     {label: "FANS", key:8, isActive: false},
     {label: "NEWS", key:9, isActive: false},
     {label: "SHOP", key:10, isActive: false},
-]
+];
+
+export default navLinks;
