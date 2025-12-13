@@ -1,13 +1,13 @@
-import styles from "./PostFooter.module.css";
+import s from "../modules/PostFooter.module.css";
 
 export default function () {
     return (
         <>
-            <div className={styles.postFooter}>
-                <div className={`${styles.flex} wrapper`}>
-                    <button className={styles.button}>SIGN-UP NOW</button>
-                    <div className={`${styles.flex} ${styles.socials}`}>
-                        <h1 className={styles.accent}>FOLLOW US</h1>
+            <div className={s.postFooter}>
+                <div className={`${s.flex} wrapper`}>
+                    <button className={s.button}>SIGN-UP NOW</button>
+                    <div className={`${s.flex} ${s.socials}`}>
+                        <h1 className={s.accent}>FOLLOW US</h1>
                         <img src="/img/footer-facebook.png" alt="" />
                         <img src="/img/footer-periscope.png" alt="" />
                         <img src="/img/footer-pinterest.png" alt="" />

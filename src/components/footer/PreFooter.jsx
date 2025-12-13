@@ -1,4 +1,4 @@
-import s from "./PreFooter.module.css";
+import s from "../modules/PreFooter.module.css";
 
 export default function () {
     return (

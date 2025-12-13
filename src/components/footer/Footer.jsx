@@ -1,11 +1,11 @@
-import styles from "./Footer.module.css";
+import s from "../modules/FooterContent.module.css";
 
 export default function () {
     return (
         <>
-            <footer className={styles.footer}>
-                <div className={`${styles.flex} wrapper`}>
-                    <div className={styles.footerNav}>
+            <footer className={s.footer}>
+                <div className={`${s.flex} wrapper`}>
+                    <div className={s.footerNav}>
                         <div>
                             <div>
                                 <h1>DC COMICS</h1>
@@ -54,7 +54,7 @@ export default function () {
                             </ul>
                         </div>
                     </div>
-                    <div className={styles.footerImgDiv}>
+                    <div className={s.footerImgDiv}>
                         <img src="/img/dc-logo-bg.png" alt="dc logo" />
                     </div>
                 </div>
