@@ -25,3 +25,12 @@
     display: flex;
     align-items: center;
 }
+
+.headerImg {
+    /* immagine non fornita, ho fatto uno screen della reference
+    quindi risulta un po' di bassa qualità */
+    background-image: url("/img/headerImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
