@@ -1,5 +1,6 @@
 import s from "./modules/Main.module.css";
 import comics from "../data/comics.jsx";
+import CardComponent from "./CardComponent.jsx";
 
 export default function () {
     return (
@@ -11,15 +12,7 @@ export default function () {
                 <div className={`${s.cardContainer} wrapper`}>
                     {comics.map((comic) => {
                         return (
-                            <div className={s.comicCard}>
-                                <div className={s.comicImgDiv}>
-                                    <img
-                                        src={comic.thumb}
-                                        className={s.comicImg}
-                                    />
-                                </div>
-                                <p>{comic.title}</p>
-                            </div>
+                            <CardComponent title={comic.title} img={comic.thumb}/>
                         );
                     })}
                 </div>
