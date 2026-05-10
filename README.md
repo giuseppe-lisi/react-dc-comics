@@ -1,4 +1,4 @@
-# React DC Comics 🦸‍♂️⚡
+# React DC Comics 
 
 A web application built with **React** that recreates the layout of the DC Comics official website. This project focuses on component decomposition, props management, and dynamic data rendering.
 
