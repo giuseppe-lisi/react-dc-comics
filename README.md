@@ -19,7 +19,7 @@ Installation & Setup
 
 Clone the repository:
 ```
-git clone https://github.com/giuseppe-lisi/react-dc-comics/tree/main
+git clone https://github.com/giuseppe-lisi/react-dc-comics.git
 ```
 
 Navigate into the directory:
