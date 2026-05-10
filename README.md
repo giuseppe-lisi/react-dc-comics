@@ -27,21 +27,13 @@ The project was developed in two main phases:
 Installation & Setup
 
 Clone the repository:
-Bash
-
-git clone [https://github.com/your-username/react-dc-comics.git](https://github.com/your-username/react-dc-comics.git)
+```git clone [https://github.com/your-username/react-dc-comics.git](https://github.com/your-username/react-dc-comics.git)```
 
 Navigate into the directory:
-Bash
-
-cd react-dc-comics
+```cd react-dc-comics```
 
 Install dependencies:
-Bash
-
-npm install
+```npm install```
 
 Run the development server:
-Bash
-
-npm run dev
+```npm run dev```
