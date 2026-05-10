@@ -1,30 +1,47 @@
-**DC COMICS - PARTE 1**
-Obiettivo: Lavorare con i componenti su React
-Repo: react-dc-comics
+# React DC Comics 🦸‍♂️⚡
 
-DESCRIZIONE:
-Create un nuovo progetto React come abbiamo visto.
-Definite i componenti necessari per strutturare il layout come da screenshot allegato.
-Per oggi diamo priorità alla struttura: quando è tutto bello solido, sostituiamo i segnaposto e passiamo al CSS!
+A web application built with **React** that recreates the layout of the DC Comics official website. This project focuses on component decomposition, props management, and dynamic data rendering.
 
-BONUS: 
-Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
-Provare a spostare il CSS in moduli per componente, se la cosa vi stimola
+## Overview
+
+The project was developed in two main phases:
+1.  **Layout & Components:** Breaking down the UI into reusable components (Header, Main, Footer, Content cards).
+2.  **Dynamic Content:** Using JavaScript data structures to dynamically populate the Navigation Bar and the Comics Section using JSX loops.
+
+## Features
+
+- **Component-Based Architecture:** Modular structure for high maintainability.
+- **Dynamic Navigation:** The navbar links are generated from a data array, making it easy to update menus.
+- **Comic Grid:** Displays a collection of DC titles dynamically rendered from an external data source.
+- **Blue Icon Bar (Bonus):** A dedicated component for the specific DC features bar (Digital Comics, Merchandise, etc.).
+- **Dynamic Footer (Bonus):** Footer link lists are generated through data iteration.
+- **CSS Modules (Bonus):** Localized styling to avoid global CSS conflicts.
+
+## Built With
+
+* [React.js](https://reactjs.org/) - JavaScript library for building user interfaces.
+* [Vite](https://vitejs.dev/) (or Create React App) - Frontend Tooling.
+* CSS3 / SCSS - Custom styling.
 
 
-**DC COMICS - PARTE 2**
-DESCRIZIONE:
-Lavoriamo sul nostro sito dei fumetti per dinamicizzare sia la navbar che i fumetti, sfruttando l’iterazione con JSX. 
-Per la navbar, vi invitiamo  a ragionare su quale possa essere la struttura dati corretta. Magari partite da un array di stringhe e poi evolvete.
-Per i fumetti, potrete utilizzare i dati in allegato
+Installation & Setup
 
-Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
+Clone the repository:
+Bash
 
-NOTE:
-Sentitevi liberi di correggere i link alle immagini in caso di problemi.
-Il live coding resta lo stesso.
-Attenzione: il file in allegato per i fumetti crea un array e ne fa l'export. Potete usarlo in due modi: o importate quel file nel componente (v. bonus) oppure vi taglia-incollate solo la parte di array e create una const nel componente come fatto in live-coding.
+git clone [https://github.com/your-username/react-dc-comics.git](https://github.com/your-username/react-dc-comics.git)
 
-BONUS:
-Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione!
-Spostare i dati in file esterni tipo /data/comics.js da cui fate export default dell'array. Importate poi i dati con import qualcosa from "percorso" come abbiamo già visto altrove.
+Navigate into the directory:
+Bash
+
+cd react-dc-comics
+
+Install dependencies:
+Bash
+
+npm install
+
+Run the development server:
+Bash
+
+npm run dev
